@@ -1,0 +1,16 @@
+<div class="container">
+    <div class="row">
+        <table class="table">
+            <tr>
+                <th>S.No. </th>
+                <th>Name </th>
+                <th>Status </th>
+            </tr>
+            <tr *ngFor="let record of records;let i = index; let evenrecord = even; let oddrecord = odd; let first = first; let last = last" [ngClass]="{'evenrow' : evenrecord, 'oddrow' : oddrecord,'first' : first, 'last' : last}">
+                <td>{{i+1}} </td>
+                <td>{{record.name}} </td>
+                <td> {{record.status}} </td>
+            </tr>
+        </table>
+    </div>
+</div>

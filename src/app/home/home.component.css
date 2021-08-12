@@ -1,0 +1,19 @@
+.evenrow {
+    background-color: black;
+    color: white;
+}
+
+.oddrow {
+    background-color: red;
+    color: white;
+}
+
+.first {
+    background-color: green;
+    color: white;
+}
+
+.last {
+    background-color: blue;
+    color: white;
+}
